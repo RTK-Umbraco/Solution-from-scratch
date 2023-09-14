@@ -5,14 +5,14 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F404A3BB-43BA-4E88-9CDF-7BF9B162F923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationServices", "ApplicationServices\ApplicationServices.csproj", "{FB474C24-109D-4424-B90A-031DD27E5C95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.ApplicationServices", "ApplicationServices\Project.ApplicationServices.csproj", "{FB474C24-109D-4424-B90A-031DD27E5C95}"
 	ProjectSection(ProjectDependencies) = postProject
 		{BB666CFE-1DDC-48C1-B56A-44A21AA90289} = {BB666CFE-1DDC-48C1-B56A-44A21AA90289}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{BB666CFE-1DDC-48C1-B56A-44A21AA90289}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Domain", "Domain\Project.Domain.csproj", "{BB666CFE-1DDC-48C1-B56A-44A21AA90289}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{3A499A28-FD0C-435C-99BD-6F9785313CA1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Infrastucture", "Infrastructure\Project.Infrastucture.csproj", "{3A499A28-FD0C-435C-99BD-6F9785313CA1}"
 	ProjectSection(ProjectDependencies) = postProject
 		{BB666CFE-1DDC-48C1-B56A-44A21AA90289} = {BB666CFE-1DDC-48C1-B56A-44A21AA90289}
 		{FB474C24-109D-4424-B90A-031DD27E5C95} = {FB474C24-109D-4424-B90A-031DD27E5C95}

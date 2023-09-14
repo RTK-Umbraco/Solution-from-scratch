@@ -1,10 +1,11 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Infrastructure.Startup;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Infrastructure.Installers;
 public sealed class ServiceInstaller : IDependencyInstaller
 {
     public void Install(IServiceCollection serviceCollection, DependencyInstallerOptions options)
     {
-        serviceCollection.AddTransient<>
+        serviceCollection.AddTransient<IRunOnStartupExecution, RunOnStartupExecution>();
     }
 }
